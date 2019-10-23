@@ -1,0 +1,3788 @@
+No.     Time           Source                Destination           Protocol Length Info
+    177 2.924778       192.168.118.27        128.119.245.12        HTTP     586    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 177: 586 bytes on wire (4688 bits), 586 bytes captured (4688 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:06:59.892304000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476019.892304000 seconds
+    [Time delta from previous captured frame: 0.000405000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 2.924778000 seconds]
+    Frame Number: 177
+    Frame Length: 586 bytes (4688 bits)
+    Capture Length: 586 bytes (4688 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 572
+    Identification: 0xb729 (46889)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x954a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 58794, Dst Port: 80, Seq: 1, Ack: 1, Len: 532
+    Source Port: 58794
+    Destination Port: 80
+    [Stream index: 11]
+    [TCP Segment Len: 532]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 533    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xdef8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.125307000 seconds]
+        [Bytes in flight: 532]
+        [Bytes sent since last PSH flag: 532]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.125926000 seconds]
+        [Time since previous frame in this TCP stream: 0.000619000 seconds]
+    TCP payload (532 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file4.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/3]
+    [Response in frame: 189]
+    [Next request in frame: 191]
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 3.180856       128.119.245.12        192.168.118.27        HTTP     1127   HTTP/1.1 200 OK  (text/html)
+
+Frame 189: 1127 bytes on wire (9016 bits), 1127 bytes captured (9016 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.148382000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.148382000 seconds
+    [Time delta from previous captured frame: 0.006409000 seconds]
+    [Time delta from previous displayed frame: 0.256078000 seconds]
+    [Time since reference or first frame: 3.180856000 seconds]
+    Frame Number: 189
+    Frame Length: 1127 bytes (9016 bits)
+    Capture Length: 1127 bytes (9016 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1113
+    Identification: 0x310e (12558)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 48
+    Protocol: TCP (6)
+    Header checksum: 0x6949 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58794, Seq: 1, Ack: 533, Len: 1073
+    Source Port: 80
+    Destination Port: 58794
+    [Stream index: 11]
+    [TCP Segment Len: 1073]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 1074    (relative sequence number)]
+    Acknowledgment number: 533    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0xe8ea [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.125307000 seconds]
+        [Bytes in flight: 1073]
+        [Bytes sent since last PSH flag: 1073]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.382004000 seconds]
+        [Time since previous frame in this TCP stream: 0.006409000 seconds]
+    TCP payload (1073 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Sat, 19 Oct 2019 09:07:01 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Sat, 19 Oct 2019 05:59:03 GMT\r\n
+    ETag: "2ca-5953d25d1970b"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 714\r\n
+        [Content length: 714]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/3]
+    [Time since request: 0.256078000 seconds]
+    [Request in frame: 177]
+    [Next request in frame: 191]
+    [Next response in frame: 200]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    File Data: 714 bytes
+Line-based text data: text/html (17 lines)
+    <html>\n
+    <head>\n
+    <title>Lab2-4 file: Embedded URLs</title>\n
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">\n
+    </head>\n
+    \n
+    <body bgcolor="#FFFFFF" text="#000000">\n
+    \n
+    <p>\n
+    <img src="http://gaia.cs.umass.edu/pearson.png" WIDTH="70" HEIGHT="41" > </p>\n
+    <p>This little HTML file is being served by gaia.cs.umass.edu. \n
+    It contains two embedded images. <br> The image above, also served from the \n
+    gaia.cs.umass.edu web site, is the logo of our publisher, Pearson. <br>\n
+    The image of our 5th edition book cover below is stored at, and served from, the www server caite.cs.umass.edu:</p>\n
+    <p align="left"><img src="http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg" width="168" height="220"></p>\n
+    </body>\n
+    </html>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 3.234375       192.168.118.27        128.119.245.12        HTTP     524    GET /pearson.png HTTP/1.1 
+
+Frame 191: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.201901000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.201901000 seconds
+    [Time delta from previous captured frame: 0.012290000 seconds]
+    [Time delta from previous displayed frame: 0.053519000 seconds]
+    [Time since reference or first frame: 3.234375000 seconds]
+    Frame Number: 191
+    Frame Length: 524 bytes (4192 bits)
+    Capture Length: 524 bytes (4192 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 510
+    Identification: 0xb72b (46891)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x9586 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 58794, Dst Port: 80, Seq: 533, Ack: 1074, Len: 470
+    Source Port: 58794
+    Destination Port: 80
+    [Stream index: 11]
+    [TCP Segment Len: 470]
+    Sequence number: 533    (relative sequence number)
+    [Next sequence number: 1003    (relative sequence number)]
+    Acknowledgment number: 1074    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 509
+    [Calculated window size: 130304]
+    [Window size scaling factor: 256]
+    Checksum: 0xf3ca [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.125307000 seconds]
+        [Bytes in flight: 470]
+        [Bytes sent since last PSH flag: 470]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.435523000 seconds]
+        [Time since previous frame in this TCP stream: 0.012290000 seconds]
+    TCP payload (470 bytes)
+Hypertext Transfer Protocol
+    GET /pearson.png HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /pearson.png HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /pearson.png
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/pearson.png]
+    [HTTP request 2/3]
+    [Prev request in frame: 177]
+    [Response in frame: 200]
+    [Next request in frame: 314]
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 3.358301       192.168.118.27        128.119.245.12        HTTP     538    GET /~kurose/cover_5th_ed.jpg HTTP/1.1 
+
+Frame 196: 538 bytes on wire (4304 bits), 538 bytes captured (4304 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.325827000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.325827000 seconds
+    [Time delta from previous captured frame: 0.000296000 seconds]
+    [Time delta from previous displayed frame: 0.123926000 seconds]
+    [Time since reference or first frame: 3.358301000 seconds]
+    Frame Number: 196
+    Frame Length: 538 bytes (4304 bits)
+    Capture Length: 538 bytes (4304 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 524
+    Identification: 0xb72e (46894)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x9575 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 58796, Dst Port: 80, Seq: 1, Ack: 1, Len: 484
+    Source Port: 58796
+    Destination Port: 80
+    [Stream index: 12]
+    [TCP Segment Len: 484]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 485    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xc867 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.122131000 seconds]
+        [Bytes in flight: 484]
+        [Bytes sent since last PSH flag: 484]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.122427000 seconds]
+        [Time since previous frame in this TCP stream: 0.000296000 seconds]
+    TCP payload (484 bytes)
+Hypertext Transfer Protocol
+    GET /~kurose/cover_5th_ed.jpg HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /~kurose/cover_5th_ed.jpg HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /~kurose/cover_5th_ed.jpg
+        Request Version: HTTP/1.1
+    Host: manic.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 312]
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 3.369732       128.119.245.12        192.168.118.27        HTTP     745    HTTP/1.1 200 OK  (PNG)
+
+Frame 200: 745 bytes on wire (5960 bits), 745 bytes captured (5960 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.337258000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.337258000 seconds
+    [Time delta from previous captured frame: 0.006873000 seconds]
+    [Time delta from previous displayed frame: 0.011431000 seconds]
+    [Time since reference or first frame: 3.369732000 seconds]
+    Frame Number: 200
+    Frame Length: 745 bytes (5960 bits)
+    Capture Length: 745 bytes (5960 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:png]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 731
+    Identification: 0x3111 (12561)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 48
+    Protocol: TCP (6)
+    Header checksum: 0x6ac4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58794, Seq: 3994, Ack: 1003, Len: 691
+    Source Port: 80
+    Destination Port: 58794
+    [Stream index: 11]
+    [TCP Segment Len: 691]
+    Sequence number: 3994    (relative sequence number)
+    [Next sequence number: 4685    (relative sequence number)]
+    Acknowledgment number: 1003    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0xeb45 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.125307000 seconds]
+        [Bytes in flight: 691]
+        [Bytes sent since last PSH flag: 3611]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.570880000 seconds]
+        [Time since previous frame in this TCP stream: 0.006873000 seconds]
+    TCP payload (691 bytes)
+    TCP segment data (691 bytes)
+[3 Reassembled TCP Segments (3611 bytes): #197(1460), #198(1460), #200(691)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Sat, 19 Oct 2019 09:07:01 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Sat, 06 Aug 2016 10:08:14 GMT\r\n
+    ETag: "cc3-539645c7f1ee7"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 3267\r\n
+        [Content length: 3267]
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/png\r\n
+    \r\n
+    [HTTP response 2/3]
+    [Time since request: 0.135357000 seconds]
+    [Prev request in frame: 177]
+    [Prev response in frame: 189]
+    [Request in frame: 191]
+    [Next request in frame: 314]
+    [Next response in frame: 315]
+    [Request URI: http://gaia.cs.umass.edu/pearson.png]
+    File Data: 3267 bytes
+Portable Network Graphics
+    PNG Signature: 89504e470d0a1a0a
+    Image Header (IHDR)
+        Len: 13
+        Chunk: IHDR
+        ..0. .... .... .... .... .... .... .... = Ancillary: This is a CRITICAL chunk
+        .... .... ..0. .... .... .... .... .... = Private: This is a PUBLIC chunk
+        .... .... .... .... .... .... ..0. .... = Safe To Copy: This chunk is NOT safe to copy
+        Width: 253
+        Height: 199
+        Bit Depth: 8
+        Colour Type: Indexed-colour (3)
+        Compression Method: Deflate (0)
+        Filter Method: Adaptive (0)
+        Interlace Method: No interlace (0)
+        CRC: 0xe50aa505
+    Palette (PLTE)
+        Len: 189
+        Chunk: PLTE
+        ..0. .... .... .... .... .... .... .... = Ancillary: This is a CRITICAL chunk
+        .... .... ..0. .... .... .... .... .... = Private: This is a PUBLIC chunk
+        .... .... .... .... .... .... ..0. .... = Safe To Copy: This chunk is NOT safe to copy
+        Data
+        CRC: 0xbd86a38a
+    Image data chunk (IDAT)
+        Len: 3009
+        Chunk: IDAT
+        ..0. .... .... .... .... .... .... .... = Ancillary: This is a CRITICAL chunk
+        .... .... ..0. .... .... .... .... .... = Private: This is a PUBLIC chunk
+        .... .... .... .... .... .... ..0. .... = Safe To Copy: This chunk is NOT safe to copy
+        Data
+        CRC: 0x93ccbcbc
+    Image Trailer (IEND)
+        Len: 0
+        Chunk: IEND
+        ..0. .... .... .... .... .... .... .... = Ancillary: This is a CRITICAL chunk
+        .... .... ..0. .... .... .... .... .... = Private: This is a PUBLIC chunk
+        .... .... .... .... .... .... ..0. .... = Safe To Copy: This chunk is NOT safe to copy
+        CRC: 0xae426082
+
+No.     Time           Source                Destination           Protocol Length Info
+    312 3.806111       128.119.245.12        192.168.118.27        HTTP     632    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 312: 632 bytes on wire (5056 bits), 632 bytes captured (5056 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.773637000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.773637000 seconds
+    [Time delta from previous captured frame: 0.001684000 seconds]
+    [Time delta from previous displayed frame: 0.436379000 seconds]
+    [Time since reference or first frame: 3.806111000 seconds]
+    Frame Number: 312
+    Frame Length: 632 bytes (5056 bits)
+    Capture Length: 632 bytes (5056 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:image-jfif]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 618
+    Identification: 0xd216 (53782)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 48
+    Protocol: TCP (6)
+    Header checksum: 0xca2f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58796, Seq: 100741, Ack: 485, Len: 578
+    Source Port: 80
+    Destination Port: 58796
+    [Stream index: 12]
+    [TCP Segment Len: 578]
+    Sequence number: 100741    (relative sequence number)
+    [Next sequence number: 101319    (relative sequence number)]
+    Acknowledgment number: 485    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0xbb3b [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.122131000 seconds]
+        [Bytes in flight: 2038]
+        [Bytes sent since last PSH flag: 101318]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.570237000 seconds]
+        [Time since previous frame in this TCP stream: 0.001684000 seconds]
+    TCP payload (578 bytes)
+    TCP segment data (578 bytes)
+[70 Reassembled TCP Segments (101318 bytes): #206(1460), #207(1460), #209(1460), #210(1460), #212(1460), #213(1460), #215(1460), #216(1460), #218(1460), #219(1460), #222(1460), #223(1460), #225(1460), #226(1460), #228(1460), #229(1460), #23]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Sat, 19 Oct 2019 09:07:01 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Tue, 15 Sep 2009 18:23:27 GMT\r\n
+    ETag: "18a68-473a1e0e6e5c0"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 100968\r\n
+        [Content length: 100968]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/jpeg\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.447810000 seconds]
+    [Request in frame: 196]
+    [Request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
+    File Data: 100968 bytes
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+    314 3.813781       192.168.118.27        128.119.245.12        HTTP     524    GET /favicon.ico HTTP/1.1 
+
+Frame 314: 524 bytes on wire (4192 bits), 524 bytes captured (4192 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.781307000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.781307000 seconds
+    [Time delta from previous captured frame: 0.007648000 seconds]
+    [Time delta from previous displayed frame: 0.007670000 seconds]
+    [Time since reference or first frame: 3.813781000 seconds]
+    Frame Number: 314
+    Frame Length: 524 bytes (4192 bits)
+    Capture Length: 524 bytes (4192 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 510
+    Identification: 0xb754 (46932)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x955d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 58794, Dst Port: 80, Seq: 1003, Ack: 4685, Len: 470
+    Source Port: 58794
+    Destination Port: 80
+    [Stream index: 11]
+    [TCP Segment Len: 470]
+    Sequence number: 1003    (relative sequence number)
+    [Next sequence number: 1473    (relative sequence number)]
+    Acknowledgment number: 4685    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 510
+    [Calculated window size: 130560]
+    [Window size scaling factor: 256]
+    Checksum: 0xfbdc [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.125307000 seconds]
+        [Bytes in flight: 470]
+        [Bytes sent since last PSH flag: 470]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.014929000 seconds]
+        [Time since previous frame in this TCP stream: 0.404358000 seconds]
+    TCP payload (470 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /favicon.ico HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /favicon.ico
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    [HTTP request 3/3]
+    [Prev request in frame: 191]
+    [Response in frame: 315]
+
+No.     Time           Source                Destination           Protocol Length Info
+    315 3.938377       128.119.245.12        192.168.118.27        HTTP     538    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 315: 538 bytes on wire (4304 bits), 538 bytes captured (4304 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:00.905903000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476020.905903000 seconds
+    [Time delta from previous captured frame: 0.124596000 seconds]
+    [Time delta from previous displayed frame: 0.124596000 seconds]
+    [Time since reference or first frame: 3.938377000 seconds]
+    Frame Number: 315
+    Frame Length: 538 bytes (4304 bits)
+    Capture Length: 538 bytes (4304 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 524
+    Identification: 0x3112 (12562)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 48
+    Protocol: TCP (6)
+    Header checksum: 0x6b92 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58794, Seq: 4685, Ack: 1473, Len: 484
+    Source Port: 80
+    Destination Port: 58794
+    [Stream index: 11]
+    [TCP Segment Len: 484]
+    Sequence number: 4685    (relative sequence number)
+    [Next sequence number: 5169    (relative sequence number)]
+    Acknowledgment number: 1473    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 254
+    [Calculated window size: 32512]
+    [Window size scaling factor: 128]
+    Checksum: 0x7350 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 314]
+        [The RTT to ACK the segment was: 0.124596000 seconds]
+        [iRTT: 0.125307000 seconds]
+        [Bytes in flight: 484]
+        [Bytes sent since last PSH flag: 484]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.139525000 seconds]
+        [Time since previous frame in this TCP stream: 0.124596000 seconds]
+    TCP payload (484 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 404 Not Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 404 Not Found\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 404
+        [Status Code Description: Not Found]
+        Response Phrase: Not Found
+    Date: Sat, 19 Oct 2019 09:07:01 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Content-Length: 209\r\n
+        [Content length: 209]
+    Keep-Alive: timeout=5, max=98\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [HTTP response 3/3]
+    [Time since request: 0.124596000 seconds]
+    [Prev request in frame: 191]
+    [Prev response in frame: 200]
+    [Request in frame: 314]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 209 bytes
+Line-based text data: text/html (7 lines)
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>404 Not Found</title>\n
+    </head><body>\n
+    <h1>Not Found</h1>\n
+    <p>The requested URL /favicon.ico was not found on this server.</p>\n
+    </body></html>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    336 4.172681       192.168.118.27        37.252.173.62         HTTP     1151   POST /ut/v3/prebid HTTP/1.1  (text/plain)
+
+Frame 336: 1151 bytes on wire (9208 bits), 1151 bytes captured (9208 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:01.140207000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476021.140207000 seconds
+    [Time delta from previous captured frame: 0.000385000 seconds]
+    [Time delta from previous displayed frame: 0.234304000 seconds]
+    [Time since reference or first frame: 4.172681000 seconds]
+    Frame Number: 336
+    Frame Length: 1151 bytes (9208 bits)
+    Capture Length: 1151 bytes (9208 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 37.252.173.62
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1137
+    Identification: 0x28e9 (10473)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc39f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 37.252.173.62
+Transmission Control Protocol, Src Port: 58797, Dst Port: 80, Seq: 1, Ack: 1, Len: 1097
+    Source Port: 58797
+    Destination Port: 80
+    [Stream index: 14]
+    [TCP Segment Len: 1097]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 1098    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x66fb [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.035056000 seconds]
+        [Bytes in flight: 1097]
+        [Bytes sent since last PSH flag: 1097]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.035441000 seconds]
+        [Time since previous frame in this TCP stream: 0.000385000 seconds]
+    TCP payload (1097 bytes)
+Hypertext Transfer Protocol
+    POST /ut/v3/prebid HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /ut/v3/prebid HTTP/1.1\r\n]
+        Request Method: POST
+        Request URI: /ut/v3/prebid
+        Request Version: HTTP/1.1
+    Host: ib.adnxs.com\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 627\r\n
+        [Content length: 627]
+    Origin: http://qaru.site\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Content-Type: text/plain\r\n
+    Accept: */*\r\n
+    Referer: http://qaru.site/questions/224972/why-doesnt-wireshark-detect-my-interface\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://ib.adnxs.com/ut/v3/prebid]
+    [HTTP request 1/3]
+    [Response in frame: 346]
+    [Next request in frame: 508]
+    File Data: 627 bytes
+Line-based text data: text/plain (1 lines)
+     [truncated]{"tags":[{"sizes":[{"width":419,"height":236}],"primary_size":{"width":419,"height":236},"ad_types":["video"],"uuid":"15396c149ccc9c69","id":17119387,"allow_smaller_sizes":false,"use_pmt_rule":false,"prebid":true,"disable_psa"
+
+No.     Time           Source                Destination           Protocol Length Info
+    346 4.266802       37.252.173.62         192.168.118.27        HTTP     1205   HTTP/1.1 200 OK  (application/json)
+
+Frame 346: 1205 bytes on wire (9640 bits), 1205 bytes captured (9640 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:01.234328000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476021.234328000 seconds
+    [Time delta from previous captured frame: 0.000402000 seconds]
+    [Time delta from previous displayed frame: 0.094121000 seconds]
+    [Time since reference or first frame: 4.266802000 seconds]
+    Frame Number: 346
+    Frame Length: 1205 bytes (9640 bits)
+    Capture Length: 1205 bytes (9640 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:json]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 37.252.173.62, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1191
+    Identification: 0x1ef4 (7924)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0x175f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 37.252.173.62
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58797, Seq: 1, Ack: 1098, Len: 1151
+    Source Port: 80
+    Destination Port: 58797
+    [Stream index: 14]
+    [TCP Segment Len: 1151]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 1152    (relative sequence number)]
+    Acknowledgment number: 1098    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 57
+    [Calculated window size: 29184]
+    [Window size scaling factor: 512]
+    Checksum: 0x3a11 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.035056000 seconds]
+        [Bytes in flight: 1151]
+        [Bytes sent since last PSH flag: 1151]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.129562000 seconds]
+        [Time since previous frame in this TCP stream: 0.059624000 seconds]
+    TCP payload (1151 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx/1.13.4\r\n
+    Date: Sat, 19 Oct 2019 09:07:04 GMT\r\n
+    Content-Type: application/json; charset=utf-8\r\n
+    Content-Length: 146\r\n
+        [Content length: 146]
+    Connection: keep-alive\r\n
+    Cache-Control: no-store, no-cache, private\r\n
+    Pragma: no-cache\r\n
+    Expires: Sat, 15 Nov 2008 16:00:00 GMT\r\n
+    P3P: policyref="http://cdn.adnxs.com/w3c/policy/p3p.xml", CP="NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE"\r\n
+    X-XSS-Protection: 0\r\n
+    Access-Control-Allow-Credentials: true\r\n
+    Access-Control-Allow-Origin: http://qaru.site\r\n
+    AN-X-Request-Uuid: 7e0bc09b-4b71-47b7-a87b-c21a782c8c39\r\n
+    Set-Cookie: icu=ChgIwMJgEAoYASABKAEwuKSr7QU4AUABSAEQuKSr7QUYAA..; SameSite=None; Path=/; Max-Age=7776000; Expires=Fri, 17-Jan-2020 09:07:04 GMT; Domain=.adnxs.com; HttpOnly\r\n
+    Set-Cookie: uuid2=3643375745245509277; SameSite=None; Path=/; Max-Age=7776000; Expires=Fri, 17-Jan-2020 09:07:04 GMT; Domain=.adnxs.com; HttpOnly\r\n
+    X-Proxy-Origin: 77.47.192.88; 77.47.192.88; 535.bm-nginx-loadbalancer.mgmt.fra1; *.adnxs.com; 37.252.172.112:80\r\n
+    \r\n
+    [HTTP response 1/3]
+    [Time since request: 0.094121000 seconds]
+    [Request in frame: 336]
+    [Next request in frame: 508]
+    [Next response in frame: 520]
+    [Request URI: http://ib.adnxs.com/ut/v3/prebid]
+    File Data: 146 bytes
+JavaScript Object Notation: application/json
+
+No.     Time           Source                Destination           Protocol Length Info
+    508 10.128469      192.168.118.27        37.252.173.62         HTTP     1151   POST /ut/v3/prebid HTTP/1.1  (text/plain)
+
+Frame 508: 1151 bytes on wire (9208 bits), 1151 bytes captured (9208 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:07.095995000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476027.095995000 seconds
+    [Time delta from previous captured frame: 0.000370000 seconds]
+    [Time delta from previous displayed frame: 5.861667000 seconds]
+    [Time since reference or first frame: 10.128469000 seconds]
+    Frame Number: 508
+    Frame Length: 1151 bytes (9208 bits)
+    Capture Length: 1151 bytes (9208 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 37.252.173.62
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1137
+    Identification: 0x28eb (10475)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc39d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 37.252.173.62
+Transmission Control Protocol, Src Port: 58797, Dst Port: 80, Seq: 1098, Ack: 1152, Len: 1097
+    Source Port: 58797
+    Destination Port: 80
+    [Stream index: 14]
+    [TCP Segment Len: 1097]
+    Sequence number: 1098    (relative sequence number)
+    [Next sequence number: 2195    (relative sequence number)]
+    Acknowledgment number: 1152    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 508
+    [Calculated window size: 130048]
+    [Window size scaling factor: 256]
+    Checksum: 0xb13e [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.035056000 seconds]
+        [Bytes in flight: 1097]
+        [Bytes sent since last PSH flag: 1097]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 5.991229000 seconds]
+        [Time since previous frame in this TCP stream: 5.820377000 seconds]
+    TCP payload (1097 bytes)
+Hypertext Transfer Protocol
+    POST /ut/v3/prebid HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /ut/v3/prebid HTTP/1.1\r\n]
+        Request Method: POST
+        Request URI: /ut/v3/prebid
+        Request Version: HTTP/1.1
+    Host: ib.adnxs.com\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 627\r\n
+        [Content length: 627]
+    Origin: http://qaru.site\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Content-Type: text/plain\r\n
+    Accept: */*\r\n
+    Referer: http://qaru.site/questions/224972/why-doesnt-wireshark-detect-my-interface\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://ib.adnxs.com/ut/v3/prebid]
+    [HTTP request 2/3]
+    [Prev request in frame: 336]
+    [Response in frame: 520]
+    [Next request in frame: 662]
+    File Data: 627 bytes
+Line-based text data: text/plain (1 lines)
+     [truncated]{"tags":[{"sizes":[{"width":419,"height":236}],"primary_size":{"width":419,"height":236},"ad_types":["video"],"uuid":"15586dc4bab0bcdf","id":17119391,"allow_smaller_sizes":false,"use_pmt_rule":false,"prebid":true,"disable_psa"
+
+No.     Time           Source                Destination           Protocol Length Info
+    520 10.223234      37.252.173.62         192.168.118.27        HTTP     1205   HTTP/1.1 200 OK  (application/json)
+
+Frame 520: 1205 bytes on wire (9640 bits), 1205 bytes captured (9640 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:07.190760000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476027.190760000 seconds
+    [Time delta from previous captured frame: 0.049502000 seconds]
+    [Time delta from previous displayed frame: 0.094765000 seconds]
+    [Time since reference or first frame: 10.223234000 seconds]
+    Frame Number: 520
+    Frame Length: 1205 bytes (9640 bits)
+    Capture Length: 1205 bytes (9640 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:json]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 37.252.173.62, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1191
+    Identification: 0x1ef6 (7926)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0x175d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 37.252.173.62
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58797, Seq: 1152, Ack: 2195, Len: 1151
+    Source Port: 80
+    Destination Port: 58797
+    [Stream index: 14]
+    [TCP Segment Len: 1151]
+    Sequence number: 1152    (relative sequence number)
+    [Next sequence number: 2303    (relative sequence number)]
+    Acknowledgment number: 2195    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 61
+    [Calculated window size: 31232]
+    [Window size scaling factor: 512]
+    Checksum: 0x0e35 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.035056000 seconds]
+        [Bytes in flight: 1151]
+        [Bytes sent since last PSH flag: 1151]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 6.085994000 seconds]
+        [Time since previous frame in this TCP stream: 0.057891000 seconds]
+    TCP payload (1151 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx/1.13.4\r\n
+    Date: Sat, 19 Oct 2019 09:07:10 GMT\r\n
+    Content-Type: application/json; charset=utf-8\r\n
+    Content-Length: 146\r\n
+        [Content length: 146]
+    Connection: keep-alive\r\n
+    Cache-Control: no-store, no-cache, private\r\n
+    Pragma: no-cache\r\n
+    Expires: Sat, 15 Nov 2008 16:00:00 GMT\r\n
+    P3P: policyref="http://cdn.adnxs.com/w3c/policy/p3p.xml", CP="NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE"\r\n
+    X-XSS-Protection: 0\r\n
+    Access-Control-Allow-Credentials: true\r\n
+    Access-Control-Allow-Origin: http://qaru.site\r\n
+    AN-X-Request-Uuid: aa288ea2-da59-404d-89bf-ca15b0ca5861\r\n
+    Set-Cookie: icu=ChgIwMJgEAoYASABKAEwvqSr7QU4AUABSAEQvqSr7QUYAA..; SameSite=None; Path=/; Max-Age=7776000; Expires=Fri, 17-Jan-2020 09:07:10 GMT; Domain=.adnxs.com; HttpOnly\r\n
+    Set-Cookie: uuid2=4851043072849988025; SameSite=None; Path=/; Max-Age=7776000; Expires=Fri, 17-Jan-2020 09:07:10 GMT; Domain=.adnxs.com; HttpOnly\r\n
+    X-Proxy-Origin: 77.47.192.88; 77.47.192.88; 535.bm-nginx-loadbalancer.mgmt.fra1; *.adnxs.com; 37.252.172.201:80\r\n
+    \r\n
+    [HTTP response 2/3]
+    [Time since request: 0.094765000 seconds]
+    [Prev request in frame: 336]
+    [Prev response in frame: 346]
+    [Request in frame: 508]
+    [Next request in frame: 662]
+    [Next response in frame: 679]
+    [Request URI: http://ib.adnxs.com/ut/v3/prebid]
+    File Data: 146 bytes
+JavaScript Object Notation: application/json
+
+No.     Time           Source                Destination           Protocol Length Info
+    662 16.131848      192.168.118.27        37.252.173.62         HTTP     1151   POST /ut/v3/prebid HTTP/1.1  (text/plain)
+
+Frame 662: 1151 bytes on wire (9208 bits), 1151 bytes captured (9208 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:13.099374000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476033.099374000 seconds
+    [Time delta from previous captured frame: 0.000332000 seconds]
+    [Time delta from previous displayed frame: 5.908614000 seconds]
+    [Time since reference or first frame: 16.131848000 seconds]
+    Frame Number: 662
+    Frame Length: 1151 bytes (9208 bits)
+    Capture Length: 1151 bytes (9208 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 37.252.173.62
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1137
+    Identification: 0x28ed (10477)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc39b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 37.252.173.62
+Transmission Control Protocol, Src Port: 58797, Dst Port: 80, Seq: 2195, Ack: 2303, Len: 1097
+    Source Port: 58797
+    Destination Port: 80
+    [Stream index: 14]
+    [TCP Segment Len: 1097]
+    Sequence number: 2195    (relative sequence number)
+    [Next sequence number: 3292    (relative sequence number)]
+    Acknowledgment number: 2303    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xd102 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.035056000 seconds]
+        [Bytes in flight: 1097]
+        [Bytes sent since last PSH flag: 1097]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 11.994608000 seconds]
+        [Time since previous frame in this TCP stream: 5.868740000 seconds]
+    TCP payload (1097 bytes)
+Hypertext Transfer Protocol
+    POST /ut/v3/prebid HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST /ut/v3/prebid HTTP/1.1\r\n]
+        Request Method: POST
+        Request URI: /ut/v3/prebid
+        Request Version: HTTP/1.1
+    Host: ib.adnxs.com\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 627\r\n
+        [Content length: 627]
+    Origin: http://qaru.site\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Content-Type: text/plain\r\n
+    Accept: */*\r\n
+    Referer: http://qaru.site/questions/224972/why-doesnt-wireshark-detect-my-interface\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://ib.adnxs.com/ut/v3/prebid]
+    [HTTP request 3/3]
+    [Prev request in frame: 508]
+    [Response in frame: 679]
+    File Data: 627 bytes
+Line-based text data: text/plain (1 lines)
+     [truncated]{"tags":[{"sizes":[{"width":419,"height":236}],"primary_size":{"width":419,"height":236},"ad_types":["video"],"uuid":"157dd090d4c109c7","id":17119393,"allow_smaller_sizes":false,"use_pmt_rule":false,"prebid":true,"disable_psa"
+
+No.     Time           Source                Destination           Protocol Length Info
+    679 16.246494      37.252.173.62         192.168.118.27        HTTP     1205   HTTP/1.1 200 OK  (application/json)
+
+Frame 679: 1205 bytes on wire (9640 bits), 1205 bytes captured (9640 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:13.214020000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476033.214020000 seconds
+    [Time delta from previous captured frame: 0.010657000 seconds]
+    [Time delta from previous displayed frame: 0.114646000 seconds]
+    [Time since reference or first frame: 16.246494000 seconds]
+    Frame Number: 679
+    Frame Length: 1205 bytes (9640 bits)
+    Capture Length: 1205 bytes (9640 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:json]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 37.252.173.62, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1191
+    Identification: 0x1ef8 (7928)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0x175b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 37.252.173.62
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58797, Seq: 2303, Ack: 3292, Len: 1151
+    Source Port: 80
+    Destination Port: 58797
+    [Stream index: 14]
+    [TCP Segment Len: 1151]
+    Sequence number: 2303    (relative sequence number)
+    [Next sequence number: 3454    (relative sequence number)]
+    Acknowledgment number: 3292    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 65
+    [Calculated window size: 33280]
+    [Window size scaling factor: 512]
+    Checksum: 0x523e [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.035056000 seconds]
+        [Bytes in flight: 1151]
+        [Bytes sent since last PSH flag: 1151]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 12.109254000 seconds]
+        [Time since previous frame in this TCP stream: 0.081441000 seconds]
+    TCP payload (1151 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx/1.13.4\r\n
+    Date: Sat, 19 Oct 2019 09:07:16 GMT\r\n
+    Content-Type: application/json; charset=utf-8\r\n
+    Content-Length: 146\r\n
+        [Content length: 146]
+    Connection: keep-alive\r\n
+    Cache-Control: no-store, no-cache, private\r\n
+    Pragma: no-cache\r\n
+    Expires: Sat, 15 Nov 2008 16:00:00 GMT\r\n
+    P3P: policyref="http://cdn.adnxs.com/w3c/policy/p3p.xml", CP="NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE"\r\n
+    X-XSS-Protection: 0\r\n
+    Access-Control-Allow-Credentials: true\r\n
+    Access-Control-Allow-Origin: http://qaru.site\r\n
+    AN-X-Request-Uuid: 16f86c57-f184-4943-820d-b72c3d830324\r\n
+    Set-Cookie: icu=ChgIwMJgEAoYASABKAEwxKSr7QU4AUABSAEQxKSr7QUYAA..; SameSite=None; Path=/; Max-Age=7776000; Expires=Fri, 17-Jan-2020 09:07:16 GMT; Domain=.adnxs.com; HttpOnly\r\n
+    Set-Cookie: uuid2=9127810050950917527; SameSite=None; Path=/; Max-Age=7776000; Expires=Fri, 17-Jan-2020 09:07:16 GMT; Domain=.adnxs.com; HttpOnly\r\n
+    X-Proxy-Origin: 77.47.192.88; 77.47.192.88; 535.bm-nginx-loadbalancer.mgmt.fra1; *.adnxs.com; 37.252.172.187:80\r\n
+    \r\n
+    [HTTP response 3/3]
+    [Time since request: 0.114646000 seconds]
+    [Prev request in frame: 508]
+    [Prev response in frame: 520]
+    [Request in frame: 662]
+    [Request URI: http://ib.adnxs.com/ut/v3/prebid]
+    File Data: 146 bytes
+JavaScript Object Notation: application/json
+
+No.     Time           Source                Destination           Protocol Length Info
+   1076 22.178884      192.168.118.27        104.20.85.23          HTTP     557    GET /modules/advarkmanager.js HTTP/1.1 
+
+Frame 1076: 557 bytes on wire (4456 bits), 557 bytes captured (4456 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.146410000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.146410000 seconds
+    [Time delta from previous captured frame: 0.367730000 seconds]
+    [Time delta from previous displayed frame: 5.932390000 seconds]
+    [Time since reference or first frame: 22.178884000 seconds]
+    Frame Number: 1076
+    Frame Length: 557 bytes (4456 bits)
+    Capture Length: 557 bytes (4456 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 104.20.85.23
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 543
+    Identification: 0xa9ac (43436)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x5b3d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 104.20.85.23
+Transmission Control Protocol, Src Port: 57494, Dst Port: 80, Seq: 2, Ack: 1, Len: 503
+    Source Port: 57494
+    Destination Port: 80
+    [Stream index: 23]
+    [TCP Segment Len: 503]
+    Sequence number: 2    (relative sequence number)
+    [Next sequence number: 505    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 511
+    [Calculated window size: 511]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xeace [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [Bytes in flight: 503]
+        [Bytes sent since last PSH flag: 504]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 14.858530000 seconds]
+        [Time since previous frame in this TCP stream: 14.804925000 seconds]
+    TCP payload (503 bytes)
+Hypertext Transfer Protocol
+    GET /modules/advarkmanager.js HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /modules/advarkmanager.js HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /modules/advarkmanager.js
+        Request Version: HTTP/1.1
+    Host: s3.advarkads.com\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: */*\r\n
+    Referer: http://s3.advarkads.com/modules/advarkmanager.html?origin=http%3A%2F%2Fqaru.site\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    If-None-Match: "0acae7f9d6fd51:0"\r\n
+    If-Modified-Since: Fri, 20 Sep 2019 10:23:52 GMT\r\n
+    \r\n
+    [Full request URI: http://s3.advarkads.com/modules/advarkmanager.js]
+    [HTTP request 1/1]
+    [Response in frame: 1130]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1130 22.245766      104.20.85.23          192.168.118.27        HTTP     600    HTTP/1.1 200 OK  (application/x-javascript)
+
+Frame 1130: 600 bytes on wire (4800 bits), 600 bytes captured (4800 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.213292000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.213292000 seconds
+    [Time delta from previous captured frame: 0.001638000 seconds]
+    [Time delta from previous displayed frame: 0.066882000 seconds]
+    [Time since reference or first frame: 22.245766000 seconds]
+    Frame Number: 1130
+    Frame Length: 600 bytes (4800 bits)
+    Capture Length: 600 bytes (4800 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data:data:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 104.20.85.23, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 586
+    Identification: 0x520e (21006)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 59
+    Protocol: TCP (6)
+    Header checksum: 0xf7b0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 104.20.85.23
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 57494, Seq: 48813, Ack: 505, Len: 546
+    Source Port: 80
+    Destination Port: 57494
+    [Stream index: 23]
+    [TCP Segment Len: 546]
+    Sequence number: 48813    (relative sequence number)
+    [Next sequence number: 49359    (relative sequence number)]
+    Acknowledgment number: 505    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 45
+    [Calculated window size: 45]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x5945 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [Bytes in flight: 546]
+        [Bytes sent since last PSH flag: 28286]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 14.925412000 seconds]
+        [Time since previous frame in this TCP stream: 0.001638000 seconds]
+    TCP payload (546 bytes)
+    TCP segment data (546 bytes)
+[35 Reassembled TCP Segments (49358 bytes): #1078(1460), #1079(1460), #1081(1460), #1082(1460), #1084(1460), #1085(1460), #1087(1460), #1088(1460), #1090(1460), #1091(1460), #1093(1460), #1094(1460), #1096(1460), #1097(1460), #1100(632), #1]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Sat, 19 Oct 2019 09:07:20 GMT\r\n
+    Content-Type: application/x-javascript\r\n
+    Transfer-Encoding: chunked\r\n
+    Connection: keep-alive\r\n
+    Set-Cookie: __cfduid=d21d958fcae2bf17db6f69432bd4a5ba41571476040; expires=Sun, 18-Oct-20 09:07:20 GMT; path=/; domain=.advarkads.com; HttpOnly\r\n
+    Cache-Control: max-age=60\r\n
+    Last-Modified: Fri, 20 Sep 2019 10:23:52 GMT\r\n
+    ETag: W/"9e84809d6fd51:0"\r\n
+    X-Powered-By: ASP.NET\r\n
+    Access-Control-Allow-Origin: *\r\n
+    CF-Cache-Status: HIT\r\n
+    Age: 6\r\n
+    Vary: Accept-Encoding\r\n
+    Server: cloudflare\r\n
+    CF-RAY: 528199e398fa8446-KBP\r\n
+    Content-Encoding: gzip\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.066882000 seconds]
+    [Request in frame: 1076]
+    [Request URI: http://s3.advarkads.com/modules/advarkmanager.js]
+    HTTP chunked response
+    Content-encoded entity body (gzip): 48763 bytes -> 212828 bytes
+    File Data: 212828 bytes
+Line-based text data: application/x-javascript (3 lines)
+     [truncated]"use strict";!function(){var e="undefined"!=typeof exports?exports:self,o="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";function u(e){this.message=e}(u.prototype=new Error).name="InvalidCharacterError",e.
+    // f063e6f5\n
+    // 2019-09-20 11:57:07
+
+No.     Time           Source                Destination           Protocol Length Info
+   1137 22.305164      192.168.118.27        188.42.29.80          HTTP     843    GET /api/vmap?id=7770-2-1&target_id=1&type_id=3&label_id=0&autoplay&category_id=9&video_title&page_url=http%3A%2F%2Fqaru.site&duration&referer_url=http%3A%2F%2Fqaru.site%2Fquestions%2F224972%2Fwhy-doesnt-wireshark-detect-my-interface&publisher&seed=0.4875718761970562&session_id=XarSR-OkF0iAXa32eFYn3Q&uid&psd&gpsd&personal_stat&group_personal_stat&inte=5&mref=&hint HTTP/1.1 
+
+Frame 1137: 843 bytes on wire (6744 bits), 843 bytes captured (6744 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.272690000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.272690000 seconds
+    [Time delta from previous captured frame: 0.000285000 seconds]
+    [Time delta from previous displayed frame: 0.059398000 seconds]
+    [Time since reference or first frame: 22.305164000 seconds]
+    Frame Number: 1137
+    Frame Length: 843 bytes (6744 bits)
+    Capture Length: 843 bytes (6744 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 188.42.29.80
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 829
+    Identification: 0x2841 (10305)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xbf3b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 188.42.29.80
+Transmission Control Protocol, Src Port: 58818, Dst Port: 80, Seq: 1, Ack: 1, Len: 789
+    Source Port: 58818
+    Destination Port: 80
+    [Stream index: 33]
+    [TCP Segment Len: 789]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 790    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xdb9c [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.020164000 seconds]
+        [Bytes in flight: 789]
+        [Bytes sent since last PSH flag: 789]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.020449000 seconds]
+        [Time since previous frame in this TCP stream: 0.000285000 seconds]
+    TCP payload (789 bytes)
+Hypertext Transfer Protocol
+     [truncated]GET /api/vmap?id=7770-2-1&target_id=1&type_id=3&label_id=0&autoplay&category_id=9&video_title&page_url=http%3A%2F%2Fqaru.site&duration&referer_url=http%3A%2F%2Fqaru.site%2Fquestions%2F224972%2Fwhy-doesnt-wireshark-detect-my-in
+        [ [truncated]Expert Info (Chat/Sequence): GET /api/vmap?id=7770-2-1&target_id=1&type_id=3&label_id=0&autoplay&category_id=9&video_title&page_url=http%3A%2F%2Fqaru.site&duration&referer_url=http%3A%2F%2Fqaru.site%2Fquestions%2F224972%2Fwhy-]
+        Request Method: GET
+        Request URI [truncated]: /api/vmap?id=7770-2-1&target_id=1&type_id=3&label_id=0&autoplay&category_id=9&video_title&page_url=http%3A%2F%2Fqaru.site&duration&referer_url=http%3A%2F%2Fqaru.site%2Fquestions%2F224972%2Fwhy-doesnt-wireshark-det
+        Request Version: HTTP/1.1
+    Host: api.advarkads.com\r\n
+    Connection: keep-alive\r\n
+    Origin: http://s3.advarkads.com\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: */*\r\n
+    Referer: http://s3.advarkads.com/modules/advarkmanager.html?origin=http%3A%2F%2Fqaru.site\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI [truncated]: http://api.advarkads.com/api/vmap?id=7770-2-1&target_id=1&type_id=3&label_id=0&autoplay&category_id=9&video_title&page_url=http%3A%2F%2Fqaru.site&duration&referer_url=http%3A%2F%2Fqaru.site%2Fquestions%2F2249]
+    [HTTP request 1/1]
+    [Response in frame: 1151]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1140 22.305649      192.168.118.27        88.212.233.36         HTTP     459    GET /tr/a/7770-2-1-0/1?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site HTTP/1.1 
+
+Frame 1140: 459 bytes on wire (3672 bits), 459 bytes captured (3672 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.273175000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.273175000 seconds
+    [Time delta from previous captured frame: 0.000241000 seconds]
+    [Time delta from previous displayed frame: 0.000485000 seconds]
+    [Time since reference or first frame: 22.305649000 seconds]
+    Frame Number: 1140
+    Frame Length: 459 bytes (3672 bits)
+    Capture Length: 459 bytes (3672 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 88.212.233.36
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 445
+    Identification: 0xfb6b (64363)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x8512 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 88.212.233.36
+Transmission Control Protocol, Src Port: 58819, Dst Port: 80, Seq: 1, Ack: 1, Len: 405
+    Source Port: 58819
+    Destination Port: 80
+    [Stream index: 34]
+    [TCP Segment Len: 405]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 406    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xbe55 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.019041000 seconds]
+        [Bytes in flight: 405]
+        [Bytes sent since last PSH flag: 405]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.019282000 seconds]
+        [Time since previous frame in this TCP stream: 0.000241000 seconds]
+    TCP payload (405 bytes)
+Hypertext Transfer Protocol
+    GET /tr/a/7770-2-1-0/1?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /tr/a/7770-2-1-0/1?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /tr/a/7770-2-1-0/1?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site
+        Request Version: HTTP/1.1
+    Host: st.tyt.me\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://st.tyt.me/tr/a/7770-2-1-0/1?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site]
+    [HTTP request 1/1]
+    [Response in frame: 1147]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1143 22.306823      192.168.118.27        88.212.233.36         HTTP     459    GET /tr/a/7770-2-1-0/2?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site HTTP/1.1 
+
+Frame 1143: 459 bytes on wire (3672 bits), 459 bytes captured (3672 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.274349000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.274349000 seconds
+    [Time delta from previous captured frame: 0.000223000 seconds]
+    [Time delta from previous displayed frame: 0.001174000 seconds]
+    [Time since reference or first frame: 22.306823000 seconds]
+    Frame Number: 1143
+    Frame Length: 459 bytes (3672 bits)
+    Capture Length: 459 bytes (3672 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 88.212.233.36
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 445
+    Identification: 0xfb6d (64365)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x8510 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 88.212.233.36
+Transmission Control Protocol, Src Port: 58820, Dst Port: 80, Seq: 1, Ack: 1, Len: 405
+    Source Port: 58820
+    Destination Port: 80
+    [Stream index: 35]
+    [TCP Segment Len: 405]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 406    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x4673 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.019998000 seconds]
+        [Bytes in flight: 405]
+        [Bytes sent since last PSH flag: 405]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.020221000 seconds]
+        [Time since previous frame in this TCP stream: 0.000223000 seconds]
+    TCP payload (405 bytes)
+Hypertext Transfer Protocol
+    GET /tr/a/7770-2-1-0/2?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /tr/a/7770-2-1-0/2?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /tr/a/7770-2-1-0/2?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site
+        Request Version: HTTP/1.1
+    Host: st.tyt.me\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://st.tyt.me/tr/a/7770-2-1-0/2?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site]
+    [HTTP request 1/1]
+    [Response in frame: 1149]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1147 22.325795      88.212.233.36         192.168.118.27        HTTP     164    HTTP/1.1 204 No Content 
+
+Frame 1147: 164 bytes on wire (1312 bits), 164 bytes captured (1312 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.293321000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.293321000 seconds
+    [Time delta from previous captured frame: 0.000223000 seconds]
+    [Time delta from previous displayed frame: 0.018972000 seconds]
+    [Time since reference or first frame: 22.325795000 seconds]
+    Frame Number: 1147
+    Frame Length: 164 bytes (1312 bits)
+    Capture Length: 164 bytes (1312 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 88.212.233.36, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 150
+    Identification: 0x7f47 (32583)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0x4c5e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 88.212.233.36
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58819, Seq: 1, Ack: 406, Len: 110
+    Source Port: 80
+    Destination Port: 58819
+    [Stream index: 34]
+    [TCP Segment Len: 110]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 111    (relative sequence number)]
+    Acknowledgment number: 406    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 60
+    [Calculated window size: 30720]
+    [Window size scaling factor: 512]
+    Checksum: 0xc627 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.019041000 seconds]
+        [Bytes in flight: 110]
+        [Bytes sent since last PSH flag: 110]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.039428000 seconds]
+        [Time since previous frame in this TCP stream: 0.000223000 seconds]
+    TCP payload (110 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 204 No Content\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 204 No Content\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 204
+        [Status Code Description: No Content]
+        Response Phrase: No Content
+    Server: nginx/1.13.8\r\n
+    Date: Sat, 19 Oct 2019 09:08:06 GMT\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.020146000 seconds]
+    [Request in frame: 1140]
+    [Request URI: http://st.tyt.me/tr/a/7770-2-1-0/1?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1149 22.326542      88.212.233.36         192.168.118.27        HTTP     164    HTTP/1.1 204 No Content 
+
+Frame 1149: 164 bytes on wire (1312 bits), 164 bytes captured (1312 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.294068000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.294068000 seconds
+    [Time delta from previous captured frame: 0.000282000 seconds]
+    [Time delta from previous displayed frame: 0.000747000 seconds]
+    [Time since reference or first frame: 22.326542000 seconds]
+    Frame Number: 1149
+    Frame Length: 164 bytes (1312 bits)
+    Capture Length: 164 bytes (1312 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 88.212.233.36, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 150
+    Identification: 0xe8b2 (59570)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0xe2f2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 88.212.233.36
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58820, Seq: 1, Ack: 406, Len: 110
+    Source Port: 80
+    Destination Port: 58820
+    [Stream index: 35]
+    [TCP Segment Len: 110]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 111    (relative sequence number)]
+    Acknowledgment number: 406    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 60
+    [Calculated window size: 30720]
+    [Window size scaling factor: 512]
+    Checksum: 0x4e46 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.019998000 seconds]
+        [Bytes in flight: 110]
+        [Bytes sent since last PSH flag: 110]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.039940000 seconds]
+        [Time since previous frame in this TCP stream: 0.000282000 seconds]
+    TCP payload (110 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 204 No Content\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 204 No Content\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 204
+        [Status Code Description: No Content]
+        Response Phrase: No Content
+    Server: nginx/1.13.8\r\n
+    Date: Sat, 19 Oct 2019 09:08:06 GMT\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.019719000 seconds]
+    [Request in frame: 1143]
+    [Request URI: http://st.tyt.me/tr/a/7770-2-1-0/2?x=XarSR-OkF0iAXa32eFYn3Q&u=&i=5&d=qaru.site&h=qaru.site]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1151 22.345869      188.42.29.80          192.168.118.27        HTTP/XML 435    HTTP/1.1 200 OK 
+
+Frame 1151: 435 bytes on wire (3480 bits), 435 bytes captured (3480 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.313395000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.313395000 seconds
+    [Time delta from previous captured frame: 0.000543000 seconds]
+    [Time delta from previous displayed frame: 0.019327000 seconds]
+    [Time since reference or first frame: 22.345869000 seconds]
+    Frame Number: 1151
+    Frame Length: 435 bytes (3480 bits)
+    Capture Length: 435 bytes (3480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:xml]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 188.42.29.80, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 421
+    Identification: 0x7cad (31917)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 55
+    Protocol: TCP (6)
+    Header checksum: 0xb567 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 188.42.29.80
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58818, Seq: 1461, Ack: 790, Len: 381
+    Source Port: 80
+    Destination Port: 58818
+    [Stream index: 33]
+    [TCP Segment Len: 381]
+    Sequence number: 1461    (relative sequence number)
+    [Next sequence number: 1842    (relative sequence number)]
+    Acknowledgment number: 790    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 61
+    [Calculated window size: 31232]
+    [Window size scaling factor: 512]
+    Checksum: 0x0c60 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.020164000 seconds]
+        [Bytes in flight: 1841]
+        [Bytes sent since last PSH flag: 1841]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.061154000 seconds]
+        [Time since previous frame in this TCP stream: 0.000543000 seconds]
+    TCP payload (381 bytes)
+    TCP segment data (381 bytes)
+[2 Reassembled TCP Segments (1841 bytes): #1150(1460), #1151(381)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx/1.10.2\r\n
+    Date: Sat, 19 Oct 2019 08:59:31 GMT\r\n
+    Content-Type: application/xml; charset=utf-8\r\n
+    Content-Length: 1280\r\n
+        [Content length: 1280]
+    Connection: keep-alive\r\n
+    Cache-Control: no-cache\r\n
+    Pragma: no-cache\r\n
+    Content-Encoding: gzip\r\n
+    Expires: -1\r\n
+    Vary: Accept-Encoding\r\n
+    Set-Cookie: u=06a92980-a3d9-43cc-91c1-ef3f16967377; Expires=Mon, 19-Oct-2020 09:07:15 GMT; Path=/; SameSite=None; Secure\r\n
+    Access-Control-Allow-Origin: http://s3.advarkads.com\r\n
+    Access-Control-Allow-Credentials: true\r\n
+    P3P: CP="BOGUS CP"\r\n
+    X-AspNet-Version: 4.0.30319\r\n
+    X-Powered-By: ASP.NET\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.040705000 seconds]
+    [Request in frame: 1137]
+    [Request URI [truncated]: http://api.advarkads.com/api/vmap?id=7770-2-1&target_id=1&type_id=3&label_id=0&autoplay&category_id=9&video_title&page_url=http%3A%2F%2Fqaru.site&duration&referer_url=http%3A%2F%2Fqaru.site%2Fquestions%2F224972%2F]
+    Content-encoded entity body (gzip): 1280 bytes -> 2945 bytes
+    File Data: 2945 bytes
+eXtensible Markup Language
+
+No.     Time           Source                Destination           Protocol Length Info
+   1162 22.432374      192.168.118.27        83.222.114.190        HTTP     439    GET /advark-sync?uid=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1 
+
+Frame 1162: 439 bytes on wire (3512 bits), 439 bytes captured (3512 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.399900000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.399900000 seconds
+    [Time delta from previous captured frame: 0.000262000 seconds]
+    [Time delta from previous displayed frame: 0.086505000 seconds]
+    [Time since reference or first frame: 22.432374000 seconds]
+    Frame Number: 1162
+    Frame Length: 439 bytes (3512 bits)
+    Capture Length: 439 bytes (3512 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 83.222.114.190
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 425
+    Identification: 0x53e4 (21476)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa80a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 83.222.114.190
+Transmission Control Protocol, Src Port: 58822, Dst Port: 80, Seq: 1, Ack: 1, Len: 385
+    Source Port: 58822
+    Destination Port: 80
+    [Stream index: 37]
+    [TCP Segment Len: 385]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 386    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x62d2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.019377000 seconds]
+        [Bytes in flight: 385]
+        [Bytes sent since last PSH flag: 385]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.019639000 seconds]
+        [Time since previous frame in this TCP stream: 0.000262000 seconds]
+    TCP payload (385 bytes)
+Hypertext Transfer Protocol
+    GET /advark-sync?uid=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /advark-sync?uid=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /advark-sync?uid=06a92980-a3d9-43cc-91c1-ef3f16967377
+        Request Version: HTTP/1.1
+    Host: rtb.com.ru\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://rtb.com.ru/advark-sync?uid=06a92980-a3d9-43cc-91c1-ef3f16967377]
+    [HTTP request 1/1]
+    [Response in frame: 1167]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1165 22.448706      192.168.118.27        94.130.112.156        HTTP     449    GET /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1 
+
+Frame 1165: 449 bytes on wire (3592 bits), 449 bytes captured (3592 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.416232000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.416232000 seconds
+    [Time delta from previous captured frame: 0.000255000 seconds]
+    [Time delta from previous displayed frame: 0.016332000 seconds]
+    [Time since reference or first frame: 22.448706000 seconds]
+    Frame Number: 1165
+    Frame Length: 449 bytes (3592 bits)
+    Capture Length: 449 bytes (3592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 94.130.112.156
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 435
+    Identification: 0x5a8e (23182)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x98d4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 94.130.112.156
+Transmission Control Protocol, Src Port: 58823, Dst Port: 80, Seq: 1, Ack: 1, Len: 395
+    Source Port: 58823
+    Destination Port: 80
+    [Stream index: 38]
+    [TCP Segment Len: 395]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 396    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xd352 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.034492000 seconds]
+        [Bytes in flight: 395]
+        [Bytes sent since last PSH flag: 395]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.034747000 seconds]
+        [Time since previous frame in this TCP stream: 0.000255000 seconds]
+    TCP payload (395 bytes)
+Hypertext Transfer Protocol
+    GET /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377
+        Request Version: HTTP/1.1
+    Host: x01.aidata.io\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://x01.aidata.io/0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377]
+    [HTTP request 1/2]
+    [Response in frame: 1173]
+    [Next request in frame: 1174]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1167 22.452236      83.222.114.190        192.168.118.27        HTTP     164    HTTP/1.1 204 No Content 
+
+Frame 1167: 164 bytes on wire (1312 bits), 164 bytes captured (1312 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.419762000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.419762000 seconds
+    [Time delta from previous captured frame: 0.000297000 seconds]
+    [Time delta from previous displayed frame: 0.003530000 seconds]
+    [Time since reference or first frame: 22.452236000 seconds]
+    Frame Number: 1167
+    Frame Length: 164 bytes (1312 bits)
+    Capture Length: 164 bytes (1312 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 83.222.114.190, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 150
+    Identification: 0xf780 (63360)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 57
+    Protocol: TCP (6)
+    Header checksum: 0x4c81 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 83.222.114.190
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58822, Seq: 1, Ack: 386, Len: 110
+    Source Port: 80
+    Destination Port: 58822
+    [Stream index: 37]
+    [TCP Segment Len: 110]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 111    (relative sequence number)]
+    Acknowledgment number: 386    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x62eb [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.019377000 seconds]
+        [Bytes in flight: 110]
+        [Bytes sent since last PSH flag: 110]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.039501000 seconds]
+        [Time since previous frame in this TCP stream: 0.000297000 seconds]
+    TCP payload (110 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 204 No Content\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 204 No Content\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 204
+        [Status Code Description: No Content]
+        Response Phrase: No Content
+    Server: nginx/1.16.0\r\n
+    Date: Sat, 19 Oct 2019 09:06:09 GMT\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.019862000 seconds]
+    [Request in frame: 1162]
+    [Request URI: http://rtb.com.ru/advark-sync?uid=06a92980-a3d9-43cc-91c1-ef3f16967377]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1172 22.484588      192.168.118.27        195.209.111.16        HTTP     469    GET /cgi-bin/sync.cgi?ssp_id=10201&external_id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1 
+
+Frame 1172: 469 bytes on wire (3752 bits), 469 bytes captured (3752 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.452114000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.452114000 seconds
+    [Time delta from previous captured frame: 0.000297000 seconds]
+    [Time delta from previous displayed frame: 0.032352000 seconds]
+    [Time since reference or first frame: 22.484588000 seconds]
+    Frame Number: 1172
+    Frame Length: 469 bytes (3752 bits)
+    Capture Length: 469 bytes (3752 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 195.209.111.16
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 455
+    Identification: 0x9a37 (39479)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xf553 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 195.209.111.16
+Transmission Control Protocol, Src Port: 58824, Dst Port: 80, Seq: 1, Ack: 1, Len: 415
+    Source Port: 58824
+    Destination Port: 80
+    [Stream index: 39]
+    [TCP Segment Len: 415]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 416    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x4f18 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.029251000 seconds]
+        [Bytes in flight: 415]
+        [Bytes sent since last PSH flag: 415]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.029548000 seconds]
+        [Time since previous frame in this TCP stream: 0.000297000 seconds]
+    TCP payload (415 bytes)
+Hypertext Transfer Protocol
+    GET /cgi-bin/sync.cgi?ssp_id=10201&external_id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /cgi-bin/sync.cgi?ssp_id=10201&external_id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /cgi-bin/sync.cgi?ssp_id=10201&external_id=06a92980-a3d9-43cc-91c1-ef3f16967377
+        Request Version: HTTP/1.1
+    Host: ssp.adriver.ru\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://ssp.adriver.ru/cgi-bin/sync.cgi?ssp_id=10201&external_id=06a92980-a3d9-43cc-91c1-ef3f16967377]
+    [HTTP request 1/1]
+    [Response in frame: 1177]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1173 22.484645      94.130.112.156        192.168.118.27        HTTP     739    HTTP/1.1 302 Found 
+
+Frame 1173: 739 bytes on wire (5912 bits), 739 bytes captured (5912 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.452171000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.452171000 seconds
+    [Time delta from previous captured frame: 0.000057000 seconds]
+    [Time delta from previous displayed frame: 0.000057000 seconds]
+    [Time since reference or first frame: 22.484645000 seconds]
+    Frame Number: 1173
+    Frame Length: 739 bytes (5912 bits)
+    Capture Length: 739 bytes (5912 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 94.130.112.156, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 725
+    Identification: 0x5feb (24555)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0xdc55 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 94.130.112.156
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58823, Seq: 1, Ack: 396, Len: 685
+    Source Port: 80
+    Destination Port: 58823
+    [Stream index: 38]
+    [TCP Segment Len: 685]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 686    (relative sequence number)]
+    Acknowledgment number: 396    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x32a3 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.034492000 seconds]
+        [Bytes in flight: 685]
+        [Bytes sent since last PSH flag: 685]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.070686000 seconds]
+        [Time since previous frame in this TCP stream: 0.001251000 seconds]
+    TCP payload (685 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 302 Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 302 Found\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 302
+        [Status Code Description: Found]
+        Response Phrase: Found
+    Server: nginx\r\n
+    Date: Sat, 19 Oct 2019 09:07:20 GMT\r\n
+    Content-Length: 0\r\n
+        [Content length: 0]
+    Connection: keep-alive\r\n
+    Location: http://x01.aidata.io/0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1\r\n
+    Expires: Sat, 19 Oct 2019 09:07:19 GMT\r\n
+    Cache-Control: no-cache\r\n
+    Pragma: no-cache\r\n
+    Cache-Control:  no-store, must-revalidate, post-check=0, pre-check=0\r\n
+    Last-Modified: Sat, 19 Oct 2019 09:07:19 GMT\r\n
+    Set-Cookie: __upin=eyGxLFNMEmZ4h1KdmsSvDA;domain=.aidata.io;path=/;max-age=63072000;SameSite=None\r\n
+    Set-Cookie: __upints=1571476040;domain=.aidata.io;path=/;max-age=63072000;SameSite=None\r\n
+    P3P: CP='NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA'\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.035939000 seconds]
+    [Request in frame: 1165]
+    [Next request in frame: 1174]
+    [Next response in frame: 1179]
+    [Request URI: http://x01.aidata.io/0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1174 22.486242      192.168.118.27        94.130.112.156        HTTP     458    GET /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1 HTTP/1.1 
+
+Frame 1174: 458 bytes on wire (3664 bits), 458 bytes captured (3664 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.453768000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.453768000 seconds
+    [Time delta from previous captured frame: 0.001597000 seconds]
+    [Time delta from previous displayed frame: 0.001597000 seconds]
+    [Time since reference or first frame: 22.486242000 seconds]
+    Frame Number: 1174
+    Frame Length: 458 bytes (3664 bits)
+    Capture Length: 458 bytes (3664 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 94.130.112.156
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 444
+    Identification: 0x5a8f (23183)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x98ca [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 94.130.112.156
+Transmission Control Protocol, Src Port: 58823, Dst Port: 80, Seq: 396, Ack: 686, Len: 404
+    Source Port: 58823
+    Destination Port: 80
+    [Stream index: 38]
+    [TCP Segment Len: 404]
+    Sequence number: 396    (relative sequence number)
+    [Next sequence number: 800    (relative sequence number)]
+    Acknowledgment number: 686    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 510
+    [Calculated window size: 130560]
+    [Window size scaling factor: 256]
+    Checksum: 0x646c [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1173]
+        [The RTT to ACK the segment was: 0.001597000 seconds]
+        [iRTT: 0.034492000 seconds]
+        [Bytes in flight: 404]
+        [Bytes sent since last PSH flag: 404]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.072283000 seconds]
+        [Time since previous frame in this TCP stream: 0.001597000 seconds]
+    TCP payload (404 bytes)
+Hypertext Transfer Protocol
+    GET /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1 HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1
+        Request Version: HTTP/1.1
+    Host: x01.aidata.io\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://x01.aidata.io/0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1]
+    [HTTP request 2/2]
+    [Prev request in frame: 1165]
+    [Response in frame: 1179]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1177 22.513107      195.209.111.16        192.168.118.27        HTTP     255    HTTP/1.1 200 OK  (GIF89a)
+
+Frame 1177: 255 bytes on wire (2040 bits), 255 bytes captured (2040 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.480633000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.480633000 seconds
+    [Time delta from previous captured frame: 0.000238000 seconds]
+    [Time delta from previous displayed frame: 0.026865000 seconds]
+    [Time since reference or first frame: 22.513107000 seconds]
+    Frame Number: 1177
+    Frame Length: 255 bytes (2040 bits)
+    Capture Length: 255 bytes (2040 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data:image-gif]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 195.209.111.16, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 241
+    Identification: 0xd486 (54406)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 56
+    Protocol: TCP (6)
+    Header checksum: 0x03db [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 195.209.111.16
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58824, Seq: 1, Ack: 416, Len: 201
+    Source Port: 80
+    Destination Port: 58824
+    [Stream index: 39]
+    [TCP Segment Len: 201]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 202    (relative sequence number)]
+    Acknowledgment number: 416    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 60
+    [Calculated window size: 30720]
+    [Window size scaling factor: 512]
+    Checksum: 0x8f97 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.029251000 seconds]
+        [Bytes in flight: 201]
+        [Bytes sent since last PSH flag: 201]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.058067000 seconds]
+        [Time since previous frame in this TCP stream: 0.000238000 seconds]
+    TCP payload (201 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx\r\n
+    Date: Sat, 19 Oct 2019 09:07:20 GMT\r\n
+    Content-Type: image/gif\r\n
+    Transfer-Encoding: chunked\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.028519000 seconds]
+    [Request in frame: 1172]
+    [Request URI: http://ssp.adriver.ru/cgi-bin/sync.cgi?ssp_id=10201&external_id=06a92980-a3d9-43cc-91c1-ef3f16967377]
+    HTTP chunked response
+    File Data: 42 bytes
+Compuserve GIF, Version: GIF89a
+
+No.     Time           Source                Destination           Protocol Length Info
+   1179 22.521814      94.130.112.156        192.168.118.27        HTTP     624    HTTP/1.1 204 No Content 
+
+Frame 1179: 624 bytes on wire (4992 bits), 624 bytes captured (4992 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.489340000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.489340000 seconds
+    [Time delta from previous captured frame: 0.002209000 seconds]
+    [Time delta from previous displayed frame: 0.008707000 seconds]
+    [Time since reference or first frame: 22.521814000 seconds]
+    Frame Number: 1179
+    Frame Length: 624 bytes (4992 bits)
+    Capture Length: 624 bytes (4992 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 94.130.112.156, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 610
+    Identification: 0x5fec (24556)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 54
+    Protocol: TCP (6)
+    Header checksum: 0xdcc7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 94.130.112.156
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58823, Seq: 686, Ack: 800, Len: 570
+    Source Port: 80
+    Destination Port: 58823
+    [Stream index: 38]
+    [TCP Segment Len: 570]
+    Sequence number: 686    (relative sequence number)
+    [Next sequence number: 1256    (relative sequence number)]
+    Acknowledgment number: 800    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0xed1a [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1174]
+        [The RTT to ACK the segment was: 0.035572000 seconds]
+        [iRTT: 0.034492000 seconds]
+        [Bytes in flight: 570]
+        [Bytes sent since last PSH flag: 570]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.107855000 seconds]
+        [Time since previous frame in this TCP stream: 0.035572000 seconds]
+    TCP payload (570 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 204 No Content\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 204 No Content\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 204
+        [Status Code Description: No Content]
+        Response Phrase: No Content
+    Server: nginx\r\n
+    Date: Sat, 19 Oct 2019 09:07:20 GMT\r\n
+    Connection: keep-alive\r\n
+    Expires: Sat, 19 Oct 2019 09:07:19 GMT\r\n
+    Cache-Control: no-cache\r\n
+    Pragma: no-cache\r\n
+    Cache-Control:  no-store, must-revalidate, post-check=0, pre-check=0\r\n
+    Last-Modified: Sat, 19 Oct 2019 09:07:19 GMT\r\n
+    Set-Cookie: __upin=m7ZxEMtFTaXr75KlIkTcyQ;domain=.aidata.io;path=/;max-age=63072000;SameSite=None\r\n
+    Set-Cookie: __upints=1571476040;domain=.aidata.io;path=/;max-age=63072000;SameSite=None\r\n
+    P3P: CP='NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA'\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.035572000 seconds]
+    [Prev request in frame: 1165]
+    [Prev response in frame: 1173]
+    [Request in frame: 1174]
+    [Request URI: http://x01.aidata.io/0.gif?pid=ADVARKADS&id=06a92980-a3d9-43cc-91c1-ef3f16967377&bounce=1]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1187 22.571544      192.168.118.27        217.118.87.139        HTTP     455    GET /userbind?id=06a92980-a3d9-43cc-91c1-ef3f16967377&src=advark HTTP/1.1 
+
+Frame 1187: 455 bytes on wire (3640 bits), 455 bytes captured (3640 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.539070000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.539070000 seconds
+    [Time delta from previous captured frame: 0.000441000 seconds]
+    [Time delta from previous displayed frame: 0.049730000 seconds]
+    [Time since reference or first frame: 22.571544000 seconds]
+    Frame Number: 1187
+    Frame Length: 455 bytes (3640 bits)
+    Capture Length: 455 bytes (3640 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 217.118.87.139
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 441
+    Identification: 0x155f (5471)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x7c1a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 217.118.87.139
+Transmission Control Protocol, Src Port: 58825, Dst Port: 80, Seq: 1, Ack: 1, Len: 401
+    Source Port: 58825
+    Destination Port: 80
+    [Stream index: 40]
+    [TCP Segment Len: 401]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 402    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x032d [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.051498000 seconds]
+        [Bytes in flight: 401]
+        [Bytes sent since last PSH flag: 401]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.051939000 seconds]
+        [Time since previous frame in this TCP stream: 0.000441000 seconds]
+    TCP payload (401 bytes)
+Hypertext Transfer Protocol
+    GET /userbind?id=06a92980-a3d9-43cc-91c1-ef3f16967377&src=advark HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /userbind?id=06a92980-a3d9-43cc-91c1-ef3f16967377&src=advark HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /userbind?id=06a92980-a3d9-43cc-91c1-ef3f16967377&src=advark
+        Request Version: HTTP/1.1
+    Host: ssp1.rtb.beeline.ru\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://ssp1.rtb.beeline.ru/userbind?id=06a92980-a3d9-43cc-91c1-ef3f16967377&src=advark]
+    [HTTP request 1/1]
+    [Response in frame: 1192]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1190 22.604584      192.168.118.27        213.87.44.81          HTTP     445    GET /p?ssp=advarkads&id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1 
+
+Frame 1190: 445 bytes on wire (3560 bits), 445 bytes captured (3560 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.572110000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.572110000 seconds
+    [Time delta from previous captured frame: 0.000534000 seconds]
+    [Time delta from previous displayed frame: 0.033040000 seconds]
+    [Time since reference or first frame: 22.604584000 seconds]
+    Frame Number: 1190
+    Frame Length: 445 bytes (3560 bits)
+    Capture Length: 445 bytes (3560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: HonHaiPr_30:98:8d (54:35:30:30:98:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+    Destination: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.118.27, Dst: 213.87.44.81
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 431
+    Identification: 0x5a4d (23117)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x668f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.118.27
+    Destination: 213.87.44.81
+Transmission Control Protocol, Src Port: 58826, Dst Port: 80, Seq: 1, Ack: 1, Len: 391
+    Source Port: 58826
+    Destination Port: 80
+    [Stream index: 41]
+    [TCP Segment Len: 391]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 392    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 512
+    [Calculated window size: 131072]
+    [Window size scaling factor: 256]
+    Checksum: 0xd596 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.077318000 seconds]
+        [Bytes in flight: 391]
+        [Bytes sent since last PSH flag: 391]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.077852000 seconds]
+        [Time since previous frame in this TCP stream: 0.000534000 seconds]
+    TCP payload (391 bytes)
+Hypertext Transfer Protocol
+    GET /p?ssp=advarkads&id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /p?ssp=advarkads&id=06a92980-a3d9-43cc-91c1-ef3f16967377 HTTP/1.1\r\n]
+        Request Method: GET
+        Request URI: /p?ssp=advarkads&id=06a92980-a3d9-43cc-91c1-ef3f16967377
+        Request Version: HTTP/1.1
+    Host: sm.rtb.mts.ru\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6\r\n
+    \r\n
+    [Full request URI: http://sm.rtb.mts.ru/p?ssp=advarkads&id=06a92980-a3d9-43cc-91c1-ef3f16967377]
+    [HTTP request 1/1]
+    [Response in frame: 1195]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1192 22.633819      217.118.87.139        192.168.118.27        HTTP     318    HTTP/1.1 302 Found 
+
+Frame 1192: 318 bytes on wire (2544 bits), 318 bytes captured (2544 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.601345000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.601345000 seconds
+    [Time delta from previous captured frame: 0.015204000 seconds]
+    [Time delta from previous displayed frame: 0.029235000 seconds]
+    [Time since reference or first frame: 22.633819000 seconds]
+    Frame Number: 1192
+    Frame Length: 318 bytes (2544 bits)
+    Capture Length: 318 bytes (2544 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 217.118.87.139, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 304
+    Identification: 0xbd57 (48471)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 52
+    Protocol: TCP (6)
+    Header checksum: 0x20ab [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 217.118.87.139
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58825, Seq: 1, Ack: 402, Len: 264
+    Source Port: 80
+    Destination Port: 58825
+    [Stream index: 40]
+    [TCP Segment Len: 264]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 265    (relative sequence number)]
+    Acknowledgment number: 402    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x5b50 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.051498000 seconds]
+        [Bytes in flight: 264]
+        [Bytes sent since last PSH flag: 264]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.114214000 seconds]
+        [Time since previous frame in this TCP stream: 0.015204000 seconds]
+    TCP payload (264 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 302 Found\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 302 Found\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 302
+        [Status Code Description: Found]
+        Response Phrase: Found
+    Server: nginx/1.10.2\r\n
+    Date: Sat, 19 Oct 2019 09:07:20 GMT\r\n
+    Content-Length: 0\r\n
+        [Content length: 0]
+    Connection: keep-alive\r\n
+    Access-Control-Allow-Origin: *\r\n
+    Access-Control-Allow-Credentials: true\r\n
+    Vary: Origin\r\n
+    Location: https://an.yandex.ru/setud/beeline/?sign=0\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.062275000 seconds]
+    [Request in frame: 1187]
+    [Request URI: http://ssp1.rtb.beeline.ru/userbind?id=06a92980-a3d9-43cc-91c1-ef3f16967377&src=advark]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1195 22.679949      213.87.44.81          192.168.118.27        HTTP     690    HTTP/1.1 301 Moved Permanently 
+
+Frame 1195: 690 bytes on wire (5520 bits), 690 bytes captured (5520 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F})
+        Interface name: \Device\NPF_{4BA3A7C4-3CE9-4764-8191-DE5C0331710F}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 12:07:19.647475000 RTZ 2 (зима)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571476039.647475000 seconds
+    [Time delta from previous captured frame: 0.000900000 seconds]
+    [Time delta from previous displayed frame: 0.046130000 seconds]
+    [Time since reference or first frame: 22.679949000 seconds]
+    Frame Number: 1195
+    Frame Length: 690 bytes (5520 bits)
+    Capture Length: 690 bytes (5520 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+    Destination: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        Address: HonHaiPr_30:98:8d (54:35:30:30:98:8d)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        Address: AsustekC_67:19:61 (00:18:f3:67:19:61)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 213.87.44.81, Dst: 192.168.118.27
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 676
+    Identification: 0x08ee (2286)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 42
+    Protocol: TCP (6)
+    Header checksum: 0x0cfa [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 213.87.44.81
+    Destination: 192.168.118.27
+Transmission Control Protocol, Src Port: 80, Dst Port: 58826, Seq: 1, Ack: 392, Len: 636
+    Source Port: 80
+    Destination Port: 58826
+    [Stream index: 41]
+    [TCP Segment Len: 636]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 637    (relative sequence number)]
+    Acknowledgment number: 392    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 60
+    [Calculated window size: 30720]
+    [Window size scaling factor: 512]
+    Checksum: 0x63fc [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.077318000 seconds]
+        [Bytes in flight: 636]
+        [Bytes sent since last PSH flag: 636]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.153217000 seconds]
+        [Time since previous frame in this TCP stream: 0.000900000 seconds]
+    TCP payload (636 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 301 Moved Permanently\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 301 Moved Permanently\r\n]
+        Response Version: HTTP/1.1
+        Status Code: 301
+        [Status Code Description: Moved Permanently]
+        Response Phrase: Moved Permanently
+    Server: nginx\r\n
+    Date: Sat, 19 Oct 2019 09:07:20 GMT\r\n
+    Content-Length: 0\r\n
+        [Content length: 0]
+    Connection: keep-alive\r\n
+    Access-Control-Allow-Credentials: true\r\n
+    Access-Control-Allow-Headers: authorization\r\n
+    Access-Control-Allow-Methods: HEAD,GET,POST,PUT,DELETE,OPTIONS\r\n
+    Access-Control-Allow-Origin: *\r\n
+    Cache-Control: no-store, no-cache, must-revalidate\r\n
+    Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+    Location: http://tech.rtb.mts.ru/?dsp_uid=71f5e3b7-37e5-4998-bce2-1c359124a423\r\n
+    Set-Cookie: dspid=71f5e3b7-37e5-4998-bce2-1c359124a423; expires=Fri, 09 Oct 2020 09:07:20 GMT; domain=.mts.ru; path=/\r\n
+    Set-Cookie: SameSite=None; Secure\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.075365000 seconds]
+    [Request in frame: 1190]
+    [Request URI: http://sm.rtb.mts.ru/p?ssp=advarkads&id=06a92980-a3d9-43cc-91c1-ef3f16967377]
