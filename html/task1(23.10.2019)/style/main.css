@@ -1,0 +1,14 @@
+body {
+	font-family: Arial, sant-serif;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+nav {
+	text-align: center;
+}
