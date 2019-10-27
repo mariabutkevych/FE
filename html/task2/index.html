@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			table {
+				border-collapse: separate;
+				border: 2px solid gray;
+			}
+
+			td, th {
+				border: 1px solid lightgray;
+				padding: 2px 5px;
+			}
+
+			.square {
+				list-style-type: square;
+			}
+
+			.circle {
+				list-style-type: circle;
+			}
+
+			.none {
+				list-style-type: none;
+			}
+
+			.bold {
+				font-weight: bold;
+			}
+
+			.inline-block {
+				display: inline-block;
+				width: 400px;
+				font-family: sans-serif;
+			}
+
+			.decimal {
+				list-style-type: decimal;
+			}
+
+			.decimal-zero {
+				list-style-type: decimal-leading-zero;
+			}
+
+			.lower-alpha {
+				list-style-type: lower-alpha;
+			}
+
+			.lower-roman {
+				list-style-type: lower-roman;
+			}
+
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th></th>
+				<th >2010</th>
+				<th>2012</th>
+				<th>2014</th>
+			</tr>
+			<tr>
+				<td>Сапфиры</td>
+				<td rowspan="2">1483</td>
+				<td>4532</td>
+				<td>6743</td>
+			</tr>
+			<tr>
+				<td>Рубины</td>
+				<td>3835</td>
+				<td>7482</td>
+			</tr>
+			<tr>
+				<td>Алмазы</td>
+				<td>683</td>
+				<td colspan="2" align="center">238</td>
+			</tr>
+		</table>
+		<p class="bold">Спутники некоторых планет</p>
+		<ul>
+			<li>
+				Земля
+				<ol>
+					<li>Луна</li>
+				</ol>
+			</li>
+			<li>
+				Марс
+				<ol>
+					<li>Фобос</li>
+					<li>Деймос</li>
+				</ol>
+			</li>
+			<li>
+				Уран
+				<ol>
+					<li>Ариэль</li>
+					<li>Умбриэль</li>
+					<li>Титания</li>
+					<li>Оберон</li>
+					<li>Миранда</li>
+				</ol>
+			</li>
+			<li>
+				Нептун
+				<ol>
+					<li>Тритон</li>
+					<li>Нереида</li>
+				</ol>
+			</li>
+		</ul>
+		<div class="inline-block">
+			<p class="bold">Unordered lists</p>
+			<p class="bold">Disc</p>
+			<ul>
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<p class="bold">Square</p>
+			<ul class="square">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<p class="bold">Circle</p>
+			<ul class="circle">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<p class="bold">None - no bullets</p>
+			<ul class="none">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+		</div>
+		<div class="inline-block">
+			<p class="bold">Ordered lists</p>
+			<p class="bold">Decimal</p>
+			<ul class="deciaml">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<p class="bold">Decimal with leading zeros</p>
+			<ul class="decimal-zero">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<p class="bold">Lowercase ascii letters</p>
+			<ul class="lower-alpha">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<p class="bold">Lowercase roman numerals</p>
+			<ul class="lower-roman">
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+		</div>
+	</body>
+</html>
